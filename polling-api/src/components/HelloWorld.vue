@@ -1,6 +1,6 @@
 <template>
 <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h3 class="head1">{{ msg }}</h3>
 </div>
 </template>
 
@@ -30,5 +30,10 @@ li {
 
 a {
     color: #42b983;
+}
+
+.head1 {
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif
 }
 </style>

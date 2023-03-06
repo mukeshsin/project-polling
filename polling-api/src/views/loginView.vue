@@ -1,8 +1,10 @@
 <template>
 <div class="formWrapper">
     <div class="wrap">
+        <h2 class="head">Log in</h2>
+        <p class="headPara">Here login an existing user</p>
         <form @submit.prevent="formSubmit">
-            <h2>Log in</h2>
+
             <label class="formLabel"> Email Id:</label>
             <input type="email" class="formInput" placeholder="please enter email" v-model="email" />
 

@@ -1,0 +1,110 @@
+.formWrapper {
+    width: 40%;
+    margin-left: 28%;
+    border: 18px solid grey;
+}
+
+.head {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+.headPara {
+    display: flex;
+    font-size: 17px;
+    font-weight: bold
+}
+
+.wrap {
+    margin-left: 40px;
+}
+
+.formLabel {
+    width: 80%;
+    margin-top: 4%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: bold;
+    display: flex;
+
+}
+
+input {
+    display: block;
+    width: 85%;
+    margin-top: 15px;
+    height: 30px;
+    font-size: 18px;
+    color: gray;
+    box-sizing: border-box;
+    margin-left: 5%;
+    border: 1px solid #bec2c4;
+    padding-left: 10px;
+}
+
+select {
+    display: block;
+    width: 85%;
+    margin-top: 15px;
+    font-size: 16px;
+    color: gray;
+    margin-left: 5%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #bec2c4;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.formCheck {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.formCheck input {
+    margin-right: 18px;
+    width: 20px;
+}
+
+.formCheck label {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.submitBtn {
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 50px;
+    border-radius: 23px;
+    background-color: #6ea4e6;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.formLabel error{
+    width: 80%;
+    margin-top: 4%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: bold;
+    display: flex;
+
+
+}
